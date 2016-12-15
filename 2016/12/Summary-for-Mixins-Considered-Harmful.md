@@ -90,7 +90,7 @@ How to make a HOC?
 So, actually Higher-Order Component is not a Component. It is a function, and a pattern.
 
 
-#### Pitfalls of Higher-Order Comp onents
+#### Pitfalls of Higher-Order Components
 Refs, not able to foward the refs to the WrappedComponent. But
 
 1. We discourage using refs for component communication
