@@ -65,13 +65,13 @@ Extract a Component
 
 ## Context
 
-Mixin solution:
+#### Mixin solution:
 Hide the context in Mixin
 
-Trouble
+#### Trouble
 Implicit dependencies
 
-Recommend solution:
+#### Recommend solution:
 HOC
 
 
