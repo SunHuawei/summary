@@ -31,36 +31,35 @@ Migrating from Mixins
 mixins are not technically deprecated, but we won’t recommend using them in the future.
 
 
-#### Performance Optimizations
+### Performance Optimizations
 
-##### Mixin solution:
+#### Mixin solution:
 PureRenderMixin
 
-##### Recommend solution:
+#### Recommend solution:
 'react-addons-shallow-compare' or 'React.PureComponent'
 
-#### Subscriptions and Side Effects
+### Subscriptions and Side Effects
 
-##### Mixin solution:
+#### Mixin solution:
 SubscriptionMixin
 
-##### Trouble
+#### Trouble
 If several components used this mixin to subscribe to a data source, a nice way to avoid repetition is to use a pattern called “higher-order components”.
 
-##### Recommend solution:
+#### Recommend solution:
 HOC
 
-Rendering Logic
------------------
+### Rendering Logic
 
-##### Mixin solution:
+#### Mixin solution:
 Component calls the function which is in mixin, and mixin calls the function which is in component.
 
-##### Trouble
+#### Trouble
 1. Implicit dependencies
 2. Component and mixin may depend on each other
 
-##### Recommend solution:
+#### Recommend solution:
 Extract a Component
 
 
@@ -80,9 +79,11 @@ Related
 -----------------
 
 #### Higher-Order Components Explained
+
 Explain Higher-Order Function and Higher-Order Components
 
 How to make a HOC?
+
 1. Extract the WrappedComponent
 2. Build a function which takes the WrappedComponent as an argument and returns a new Component
 
@@ -91,5 +92,6 @@ So, actually Higher-Order Component is not a Component. It is a function, and a 
 
 #### Pitfalls of Higher-Order Comp onents
 Refs, not able to foward the refs to the WrappedComponent. But
+
 1. We discourage using refs for component communication
 2. In the future, we might consider adding [ref forwarding](https://github.com/facebook/react/issues/4213) to React to solve this annoyance.
