@@ -69,19 +69,19 @@ this.setState(prevState => ({
 this.setState(prevState => ({
     ...prevState,
     words: [
-        ...prevState.words, 
+        ...prevState.words,
         'marklar'
-    ] 
+    ]
 }));
 ```
 
 - [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign), ES6 or polyfill
 ```javascript
-this.setState(prevState => Object.assign({}, prevState, { 
+this.setState(prevState => Object.assign({}, prevState, {
     words: [
-        ...prevState.words, 
+        ...prevState.words,
         'marklar'
-    ] 
+    ]
 }));
 ```
 
@@ -119,3 +119,5 @@ function shallowEqual(objA, objB) {
     return false
 }
 ```
+
+Two other libraries that can help use immutable data are [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) and [immutability-helper](https://github.com/kolodny/immutability-helper).

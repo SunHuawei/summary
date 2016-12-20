@@ -25,7 +25,7 @@ By adding `childContextTypes` and `getChildContext` to the context provider, and
 If `contextTypes` is not defined, then context will be an empty object.
 
 
-Parent-Child Coupling 
+Parent-Child Coupling
 -------------
 
 Context can also let you build an API where parents and children communicate.
@@ -46,12 +46,12 @@ componentWillUpdate(nextProps, nextState, nextContext)
 componentDidUpdate(prevProps, prevState, prevContext)
 ```
 
-Referencing Context in Stateless Functional Components 
+Referencing Context in Stateless Functional Components
 -------------
 
 Stateless functional components are also able to reference context if contextTypes is defined as a property of the function.
 
-Updating Context 
+Updating Context
 -------------
 
 **Don't do it.**
