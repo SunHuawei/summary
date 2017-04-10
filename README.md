@@ -9,3 +9,4 @@ Read and think. And write summary, certainly.
 - [Summary for Handling Events](https://github.com/SunHuawei/summary/blob/master/2016/12/Summary-for-Handling-Events.md)
 - [Summary for Composition VS Inheritance](https://github.com/SunHuawei/summary/blob/master/2016/12/Summary-for-Composition-VS-Inheritance.md)
 - [JavaScript模块演化简史的摘要](https://github.com/SunHuawei/summary/blob/master/2017/04/Summary-for-JavaScript-Module-History.md)
+- [如何阅读一份代码的摘要](https://github.com/SunHuawei/summary/blob/master/2017/04/Summary-for-How-to-Read-Source-Code.md)
